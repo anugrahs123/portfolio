@@ -1,0 +1,35 @@
+/* .about{
+    background-color: gray;
+} */
+.about_content{
+    position: absolute;
+    color: white;
+    top: 220px;
+    right: 420px;
+}
+.about_content > h1{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topContent__downloadButton{
+    color: white;
+    background-color: orangered;
+    font-size: 14px;
+    padding: 5px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topContent__downloadButton1{
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 5px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topContent__downloadButton1:hover{
+    background-color: blue;
+    color: black;
+}

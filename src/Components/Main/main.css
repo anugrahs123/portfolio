@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Blaka&display=swap');
+
+.main{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+.main_Skill{
+    color: white;
+    text-align: start;
+    flex: 0.6;
+    max-width: 500px;
+    margin-bottom: 22px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.main_Skill >h2{
+    font-family: "Blaka&display=swap";
+    font-size: 30px;
+}
+.image_c{
+    flex: 0.4;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.SkillSet >h5 {
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.image_c >img{
+    width: 600px;
+    align-items: center;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.SkillContainer > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(231, 209, 209);
+
+}
+.SkillContainer > .css-eglki6-MuiLinearProgress-root > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #f6162c;
+
+}
+.slide_1 >.css-eglki6-MuiLinearProgress-root > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(245, 35, 35);
+}
+.slide_2 >.css-eglki6-MuiLinearProgress-root > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(125, 180, 229);
+}
+.slide_3 >.css-eglki6-MuiLinearProgress-root > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(78, 241, 95);
+}

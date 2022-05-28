@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap'); 
+
+.header{
+    display: flex;
+    color: white;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+
+}
+.header_left{
+    flex: 0.4;
+}
+.header_left>h1{
+        padding: 15px;
+        letter-spacing: 1px;
+        font-family: "Blaka&display=swap";
+}
+.header_right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header_right > a > h4:hover{
+    transform: scale(1.25);
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    font-family: "Blaka&display=swap";
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
